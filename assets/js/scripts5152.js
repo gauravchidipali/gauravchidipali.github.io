@@ -391,7 +391,7 @@
      /*------------------------------------------
         = BACK TO TOP BTN SETTING
     -------------------------------------------*/
-    $("body").append("<a href='#' class='back-to-top'><i class='ti-arrow-up'></i></a>");
+    $("body").append("<a href='#' class='back-to-top'><i class='ti-arrow-up'></i></a><a href='https://goo.gl/maps/bfmfJdztUPmQ2YEX7' target='_blank' class='haldi-venue-c'><i class='ti-hand-drag'></i></a><a href='https://goo.gl/maps/Rk1sXKNw582X2TX57' target='_blank' class='wed-venue-c'><i class='ti-home'></i></a>");
 
     function toggleBackToTopBtn() {
         var amountScrolled = 1000;
@@ -403,6 +403,48 @@
     }
 
     $(".back-to-top").on("click", function() {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 700);
+        return false;
+    })
+
+    function toggleDownBtn() {
+        var amountScrolled = 10;
+        if ($(window).scrollTop() < amountScrolled) {
+            $(".test").fadeIn("slow");
+        } else {
+            $(".test").fadeOut("slow");
+        }
+    }
+
+    function toggleHaldiButton() {
+        var amountScrolled = 1000;
+        if ($(window).scrollTop() > amountScrolled) {
+            $("a.haldi-venue-c").fadeIn("slow");
+        } else {
+            $("a.haldi-venue-c").fadeOut("slow");
+        }
+    }
+
+    $(".haldi-venue-c").on("click", function() {
+        $("html,body").animate({
+            scrollTop: 0
+        }, 700);
+        return false;
+    })
+
+
+    function toggleWedButton() {
+        var amountScrolled = 1000;
+        if ($(window).scrollTop() > amountScrolled) {
+            $("a.wed-venue-c").fadeIn("slow");
+        } else {
+            $("a.wed-venue-c").fadeOut("slow");
+        }
+    }
+
+    $(".wed-venue-c").on("click", function() {
         $("html,body").animate({
             scrollTop: 0
         }, 700);
@@ -438,6 +480,9 @@
         }
 
         toggleBackToTopBtn();
+        toggleHaldiButton();
+        toggleWedButton();
+        toggleDownBtn();
 
     });
 

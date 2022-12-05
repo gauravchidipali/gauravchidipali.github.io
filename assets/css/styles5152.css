@@ -417,6 +417,84 @@ img {
     transform: translate(-50%, -50%);
 }
 
+/*** haldi-venue-c **/
+.haldi-venue-c {
+    background-color: rgba(134, 160, 182, 0.7);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #edf3f8;
+    border-radius: 45px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 65px;
+    transition: all 0.2s;
+}
+
+@media (max-width: 991px) {
+    .haldi-venue-c {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+.haldi-venue-c:hover {
+    background-color: #a69d5d;
+}
+
+.haldi-venue-c i {
+    font-size: 18px;
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*** wed-venue-c **/
+.wed-venue-c {
+    background-color: rgba(134, 160, 182, 0.7);
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #edf3f8;
+    border-radius: 45px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    right: 15px;
+    bottom: 115px;
+    transition: all 0.2s;
+}
+
+@media (max-width: 991px) {
+    .wed-venue-c {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+.wed-venue-c:hover {
+    background-color: #a65d5d;
+}
+
+.wed-venue-c i {
+    font-size: 18px;
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /** for popup image ***/
 .mfp-wrap {
     background-color: rgba(0, 0, 0, 0.9);
@@ -5227,7 +5305,7 @@ static-hero-s4
 }
 
 .wpo-site-footer .wpo-upper-footer {
-    padding: 100px 120px;
+    padding: 30px 35px;
     position: relative;
     z-index: 1;
 }

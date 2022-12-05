@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'themify';
-	src:url('https://gauravchidipali.herokuapp.com/assets/fonts/text-font/themify/themify.eot?-fvbane');
-	src:url('https://gauravchidipali.herokuapp.com/assets/fonts/text-font/themify/themify.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('https://gauravchidipali.herokuapp.com/assets/fonts/text-font/themify/themify.woff?-fvbane') format('woff'),
-		url('https://gauravchidipali.herokuapp.com/assets/fonts/text-font/themify/themify.ttf?-fvbane') format('truetype'),
-		url('../fonts/themify9f24.svg?-fvbane#themify') format('svg');
+	src:url('https://gauravchidipali.github.io/assets/fonts/text-font/themify/themify.eot?-fvbane');
+	src:url('https://gauravchidipali.github.io/assets/fonts/text-font/themify/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('https://gauravchidipali.github.io/assets/fonts/text-font/themify/themify.woff?-fvbane') format('woff'),
+		url('https://gauravchidipali.github.io/assets/fonts/text-font/themify/themify.ttf?-fvbane') format('truetype'),
+		url('https://gauravchidipali.github.io/assets/fonts/themify9f24.svg?-fvbane#themify') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
