@@ -3646,7 +3646,7 @@ img {
     height: 100%;
     background: #00315f;
     content: "";
-    opacity: 0.25;
+    opacity: 0.1;
     z-index: -1;
 }
 
@@ -4847,7 +4847,7 @@ img {
 }
 
 .wpo-hero-style-3 .slide-inner:before {
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .wpo-hero-style-3 .wedding-announcement {
